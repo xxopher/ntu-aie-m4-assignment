@@ -7,27 +7,26 @@ A simple task management REST API built with Spring Boot. This is the sample pro
 > [!IMPORTANT]
 > **Submit your GitHub repository link to NTULearn.** This is the only thing you submit there - your live URL, screenshots and notes all go in this `README.md`.
 
-Fill in each section below, then commit and push this `README.md` to your GitHub repository.
+## Christopher Teoh Repo Link
+ - **Github:** https://github.com/xxopher/ntu-aie-m4-assignment
 
-### Live application URL
+## Live Application
+- **Live URL:** https://ntu-aie-m4-assignment.onrender.com/api/tasks
+- **Platform:** Render (Web Service deployed via Docker)
 
-Your TaskFlow API deployed on Railway:
+## Deployment Screenshots
+### Render Dashboard
+![Render Dashboard](screenshots/render-dashboard.png)
 
-```
-https://your-app-name.up.railway.app/api/tasks
-```
+### Live API Working
+![Live Endpoint](Task 4 - Render Live Application Working.png)
 
-### Screenshot: Railway dashboard
+## Overview & Implementation Notes
+- Containerized the Spring Boot TaskFlow API using a multi-stage Docker build (`maven:3.9-eclipse-temurin-21` for build stage, `eclipse-temurin:21-jre-alpine` for production runtime).
+- Deployed as a Docker web service on Render, exposed on port 8080.
+- Verified live endpoint returning JSON task collection.
 
-Your Railway dashboard showing the active deployment. Save the image in the `screenshots/` folder and update the file name below if needed.
 
-![Railway dashboard](screenshots/dashboard.png)
-
-### Screenshot: Live application
-
-Your live Railway URL returning task data (in your browser or terminal).
-
-![Live application](screenshots/application.png)
 
 ### Errors and failures
 
@@ -118,3 +117,4 @@ Use the following connection settings:
 - JDBC URL: `jdbc:h2:mem:taskflowdb`
 - Username: `sa`
 - Password: *(leave blank)*
+# ntu-aie-m4-assignment
