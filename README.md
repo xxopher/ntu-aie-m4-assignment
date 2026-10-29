@@ -16,10 +16,10 @@ A simple task management REST API built with Spring Boot. This is the sample pro
 
 ## Deployment Screenshots
 ### Render Dashboard
-![Render Dashboard](screenshots/render-dashboard.png)
+![Render Dashboard](screenshots/Task%204%20-%20Render%20Dashboard%20Live.png)
 
 ### Live API Working
-![Live Endpoint](Task 4 - Render Live Application Working.png)
+![Live Endpoint](screenshots/Task%204%20-%20Render%20Live%20Application%20Working.png)
 
 ## Overview & Implementation Notes
 - Containerized the Spring Boot TaskFlow API using a multi-stage Docker build (`maven:3.9-eclipse-temurin-21` for build stage, `eclipse-temurin:21-jre-alpine` for production runtime).
